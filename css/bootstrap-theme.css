@@ -1,0 +1,404 @@
+/* Personal Style */
+
+html, body {
+    background-color: #ffffff;
+    background-image: url(../images/dimension.png);
+    background-repeat: repeat;
+}
+
+.container {
+    background-color: #fff;
+    background-color: rgba(255,255,255,.55);
+    background-color: rgba(0,0,0,.10);
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    
+}
+
+/*html, body {*/
+/*background-color: #ffffff;
+background-image: url(http://www.transparenttextures.com/patterns/paven.png);*/
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/*}*/
+
+/* Headers Font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EurofurenceModified';
+}
+
+p, .breadcrumb,form, .all-news {
+    font-family: 'Verdana';
+}
+
+/* Page Main Headers (h2) */
+.cust-main-headers {
+    margin-top: 10px;
+}
+
+.site-name {
+    position:absolute;
+    left:40px;;
+    top:0px;
+    z-index:999;
+    color:#fff;
+    font-size:41px;                        
+    text-transform:uppercase;  
+    display: inline-block;    
+}
+
+
+.cust-abut-us {
+    /*width: 670px;*/
+    width: 405px;
+    position:absolute;
+    left:40px;
+    top:85px;
+    color:#fff;  
+    font-size:13px;
+    text-align:justify;      
+    padding: 15px;
+    background: rgba(255,255,255,.15);
+    border-radius:5px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+
+/*raspisane*/
+.raspisanie .btn {
+    font-size: 12px !important;
+}
+
+/*  our command */
+.our-command .col-xs-offset-1 {
+    margin-left: 3.333333%;
+}
+
+
+.our-command .col-xs-2 {
+    width: 18.666667%;    
+}
+
+.avatar{
+    width: 100px;height: 100px;
+    margin: 10px auto 10px;
+    border-radius: 100%;
+    border: 2px solid #aaa;
+    background-size: cover;
+}
+
+.avatar.nazarova {
+    background-image: url(../images/nazarova.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;
+}
+
+.avatar.naydenova {
+    background-image: url(../images/naydenova.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;
+}
+
+.avatar.samsonova {
+    background-image: url(../images/samsonova.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;
+}
+
+.avatar.fantaev {
+    background-image: url(../images/fantaev.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;
+}
+
+.avatar.novikov {
+    background-image: url(../images/novikov.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;
+}
+
+.avatar.anoshina {
+    background-image: url(../images/anoshina.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;
+}
+
+.avatar.salmanova {
+    background-image: url(../images/salmanova.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center center;    
+}
+
+.our-command h4 {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: .3px;
+}
+
+.our-command p {
+    font-size: 14px;
+}
+
+/*breadcrumb*/
+
+.breadcrumb {
+    font-size: 20px;
+}
+
+/* Command Description */
+
+.panel-body {
+    background: #fff;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    height: 150px;  
+    text-align: center !important;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+
+/* modal content*/
+
+.modal-content p {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 20px 10px;
+}
+
+
+/* form button */
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: #D07712;
+    border-color: #94550D;
+}
+
+.btn-primary {
+    background: #F99015;
+    border-color: #94550D;
+}
+
+.form-control:focus {
+    border-color: #94550D !important;
+    box-shadow: none !important;
+}
+
+/* full descr zanyatiya */
+.col-xs-4[data-toggle="modal"] {    
+    max-height: 290px;    
+}    
+
+.cust-thumb-wrap-2 {
+    position: relative;
+    max-height: 260px;
+}
+
+.cust-thumb-wrap-2 img {
+    width: 300px;
+}
+
+
+/* Button-deafault*/
+
+/*
+.btn-default {
+    background:#E4E4E4;
+}
+
+.btn-default:hover,
+.btn-default:active,    
+.btn-default:focus {
+    background:#D0D0D0;
+}*/
+
+
+.btn-default {
+    background: #F99015;
+    border-color: #94550D;
+    color:#fff;
+}
+
+.btn-default.disabled {
+    color:#000;
+}
+
+.btn-default:hover,
+.btn-default:active,    
+.btn-default:focus {
+    color:#fff;
+    background: #D07712;
+    border-color: #94550D;
+}
+
+/* Social Buttons Fixed Left / Start */
+
+#social_main {
+    left: 0;
+    margin-top: -150px;
+    position: fixed;
+    top: 360px;
+    width: 25px;
+    z-index: 99999;
+}
+
+.social_main_box {
+	cursor:pointer;
+    transition: all 0.5s ease-in 0s;
+}
+.social_main_box {
+    background: url("../images/social_bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 238px;
+    left: -337px;
+    margin-bottom: -188px;
+    position: relative;
+    width: 370px;
+}
+
+.social_main_box:hover {
+    left: 0 !important;
+    margin-bottom: 0 !important;
+    transition: all 0.5s ease-out 0s;
+}
+	
+.social_main_box_fb {
+    background: url("../images/social_bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    height: 238px !important;
+    margin-bottom: -178px !important;
+}
+
+.social_main_box .social_inner {
+    position: absolute;
+    width: 336px;
+}
+
+#social_vk, #social_fb, #social_youtube {
+    left: -9px;
+    position: relative;
+    top: 2px;
+}
+
+/*.social_main_box .icon_fb {
+	background: url("images/icon_fb.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+    position: absolute;
+    right: -13px;
+    top: 20px;
+    width: 25px;
+}*/
+
+.social_main_box .icon_vk {
+	background: url("../images/icon_vk.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+    position: absolute;
+    right: -27px;
+    top: 20px;
+    width: 25px;
+}
+
+.social_main_box .icon_youtube {
+	background: url("../images/icon_youtube.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+    position: absolute;
+    right: -27px;
+    top: 20px;
+    width: 25px;
+}
+
+.social_main_box .icon_instagram {
+	background: url("../images/icon_instagram.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+    position: absolute;
+    right: -27px;
+    top: 20px;
+    width: 25px;
+}
+
+.social_main_box.youtube, .social_main_box.instagram {
+    top:0px;
+}
+
+.social_main_box.youtube:hover, .social_main_box.instagram:hover {
+    left: -337px !important;
+    margin-bottom: -188px !important;
+    transition: all 0.5s ease-out 0s;
+}
+
+/* Social Buttons Fixed Left / End */
+
+
+/* carousel / start */
+
+.carousel {
+    margin: 0px 0 20px 0;
+    padding: 20px 60px 10px 60px;
+    background: #fff;
+    border: 1px solid #777;
+    min-height: 205px;
+    background-color: #ffffff;
+    background-image: url(../images/climpek.png);
+    background-repeat: repeat;
+}
+
+.carousel .item a {
+    background-color: #4788B6;
+}
+
+/* The controlsy */
+.carousel-control {
+    margin-top: 85px;
+	left: 10px;
+    height: 34px;
+	width: 34px;
+    background: #0D629F;
+    background: rgba(13,98,159,.8);
+    border: 4px solid #FFFFFF;
+    border: 1px solid #444;
+    border-radius: 23px 23px 23px 23px;
+    background-image: none !important;
+    opacity: 0.95;
+}
+.carousel-control.right {
+	right: 10px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -6px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #0D629F;
+}
+
+/* carousel / end */
