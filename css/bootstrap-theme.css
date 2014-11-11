@@ -30,6 +30,10 @@ p, .breadcrumb,form, .all-news {
     font-family: 'Verdana';
 }
 
+.respisanie-btn {
+    padding: 6px;
+}
+
 /* Page Main Headers (h2) */
 .cust-main-headers {
     margin-top: 10px;
